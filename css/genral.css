@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  line-height: 1;
+  color: #333;
+  font-family: "Rubik", sans-serif;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 1.2rem;
+  max-width: 120rem;
+}
+.grid {
+  display: grid;
+  gap: 4.8rem;
+}
+.grid--col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.btn {
+  display: inline-block;
+}
